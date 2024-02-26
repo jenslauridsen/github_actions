@@ -73,7 +73,7 @@ jobs:
     - name: Execute performance test
       run: bash ci/performance-test.sh      
   Do-something:
-    name: Do something... like... write "Hest"!
+    name: Do something... echo "Hest"!
     runs-on: ubuntu-latest
     needs: [Performance-test]
     permissions:
